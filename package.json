@@ -1,6 +1,6 @@
 {
   "name": "node-requirejs-define",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node implmentation of requirejs's define function.",
   "main": "index.js",
   "scripts": {
