@@ -4,7 +4,7 @@
   "description": "A node implmentation of requirejs's define function.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "qunit -c index.js -t tests/tests.js"
   },
   "keywords": [
     "require",
@@ -23,6 +23,6 @@
     "requirejs": "^2.1.15"
   },
   "devDependencies": {
-    "qunitjs": "^1.17.1"
+    "qunit": "^0.7.5"
   }
 }
