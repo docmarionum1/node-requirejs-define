@@ -16,7 +16,7 @@ module.exports = function(id,depends,func) {
   var d = [];
   for (var i = 0; i < depends.length; i++) {
     var m;
-    try { //Try tp load from a requirejs path
+    try { //Try to load from a requirejs path
         m = require(requirejs.toUrl(depends[i]));
     } catch(e) { //Fallback to default require
         m = require(depends[i]);
